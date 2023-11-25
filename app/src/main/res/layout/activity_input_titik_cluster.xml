@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/lblTanggal"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTanggal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:entries="@array/arrayTanggal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/lblBulan"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerBulan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:entries="@array/arrayBulan" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/lblTahun"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTahun"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:entries="@array/arrayTahun" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/lblInputParameter"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/lblTahun"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/colorAccent"-->
+    <!--android:layout_marginBottom="5dp"/>-->
+
+    <Button
+        android:id="@+id/btnCari"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_button"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:fontFamily="@font/lato_bold"
+        android:paddingRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/btn_cari"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@id/btnProses"
+        android:layout_width="230dp"
+        android:fontFamily="@font/lato_bold"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_button"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/btn_upload"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnDBSCAN"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/lato_bold"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="@string/btnDBSCAN"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:gravity="center_horizontal"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ipb"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="-20px"
+        android:textColor="@color/text"
+        android:textStyle="bold"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/hotspotVisual"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/indicator"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/with"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button2"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/titleHistorical"
+        android:textColor="#fff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btnDBSCAN"
+        android:fontFamily="@font/lato_bold"
+        android:textColor="#fff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_button"
+        android:text="ABOUT"
+        android:fontFamily="@font/lato_bold"
+        android:textColor="#fff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+
+</LinearLayout>

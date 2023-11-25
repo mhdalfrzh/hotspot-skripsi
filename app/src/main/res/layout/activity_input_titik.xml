@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:id="@+id/top_buttons"
+        android:layout_weight="2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/lblBulan"
+            android:layout_marginBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBulan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:entries="@array/arrayBulan"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/lblTahun"
+            android:layout_marginBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerTahun"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:entries="@array/arrayTahun" />
+
+        <Button
+            android:id="@+id/btnCari"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button"
+            android:elevation="4dp"
+            android:fontFamily="@font/lato_bold"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/btn_cari"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@id/btnProses"
+            android:layout_width="230dp"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button"
+            android:elevation="4dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/btn_upload"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@id/btnPattern"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_button"
+            android:elevation="4dp"
+            android:fontFamily="@font/lato_bold"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="@string/btn_filter"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</LinearLayout>

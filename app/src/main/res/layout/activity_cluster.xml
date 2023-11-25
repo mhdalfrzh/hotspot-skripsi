@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".RealtimeActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/minsupView"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:id="@+id/txMinPts"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/minPtsHint"
+            android:fontFamily="@font/lato_bold"
+            android:paddingRight="10dp"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center"
+            android:textColor="#c6cad1"
+            android:paddingEnd="10dp" />
+
+        <EditText
+            android:id="@+id/txEps"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/minEpsHint"
+            android:fontFamily="@font/lato_bold"
+            android:paddingRight="10dp"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center"
+            android:textColor="#c6cad1"
+            android:paddingEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnInput"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/btnDBSCAN"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
+            android:layout_gravity="center"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

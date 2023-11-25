@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Simpantas</string>
+    <string name="input_titik">Input Titik</string>
+    <string name="pola_sekuens">Pola Sekuens</string>
+    <string name="visualisasi_titik">Visualisasi Titik</string>
+    <string name="title_input_titik">INPUT TITIK</string>
+    <string name="title_tahun_data">Tahun Data :</string>
+    <string name="title_upload_fail">Upload Fail :</string>
+    <string name="choose_file">Choose File :</string>
+    <string name="file_name">File Name</string>
+    <string name="title_sekuens">POLA SEKUENS TITIK PANAS</string>
+    <string name="kejadian">Kejadian :</string>
+    <string name="proses">Proses</string>
+    <string name="title_activity_visualisasi">Map</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="lihatSekuens">RIWAYAT SEKUENS</string>
+    <string name="lihatCluster">RIWAYAT CLUSTER</string>
+
+    <!-- Strings related to login -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btn_upload">Upload</string>
+    <string name="btn_cari">Cari</string>
+    <string name="btn_process">Process</string>
+    <string name="btn_filter">Filter Data</string>
+    <string name="lblTahun">Pilih Tahun :</string>
+    <string name="lblBulan">Pilih Bulan :</string>
+    <string name="lblTanggal">Pilih Tanggal :</string>
+    <string name="strTransform">Transform</string>
+    <string name="strDelete">Hapus</string>
+    <string name="appTitle">SIMPANTAS</string>
+    <string name="strTitle">SIMPANTAS</string>
+    <string name="input_data">Input Data</string>
+    <string name="newInputData">Input Data Baru</string>
+    <string name="realtime_hotspot">REALTIME HOTSPOT</string>
+    <string name="titleHistorical">SPADE</string>
+    <string name="titleClustering">CLUSTERING</string>
+    <string name="btn_transform">Transform</string>
+    <string name="btnSpade">SPADE</string>
+    <string name="btnDBSCAN">DBSCAN</string>
+    <string name="minsupHint">Input MinSup (0–1)</string>
+    <string name="minPtsHint">Input minPts (>=1)</string>
+    <string name="minEpsHint">Input Epsilon</string>
+    <string name="toolbarHome">Beranda</string>
+    <string name="toolbarSekuens">Pola Sekuens</string>
+    <string name="toolbarInput">Input Data</string>
+    <string name="with">with SPADE and DBSCAN</string>
+    <string name="indicator">Indicator of Forest Land Fires</string>
+    <string name="hotspotVisual">Hotspot Visualizer</string>
+    <string name="titleProcessSequence">PROSES SEKUENS BERHASIL! \nJUMLAH SEKUENS :</string>
+
+    <string-array name="arrayTahun">
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+    </string-array>
+
+    <string-array name="arrayBulan">
+        <item>JANUARI</item>
+        <item>FEBRUARI</item>
+        <item>MARET</item>
+        <item>APRIL</item>
+        <item>MEI</item>
+        <item>JUNI</item>
+        <item>JULI</item>
+        <item>AGUSTUS</item>
+        <item>SEPTEMBER</item>
+        <item>OKTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DESEMBER</item>
+    </string-array>
+
+    <string-array name="arrayTanggal">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+</resources>
